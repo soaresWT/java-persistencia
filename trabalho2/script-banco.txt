@@ -1,0 +1,15 @@
+create TABLE filme(
+	id_filme serial PRIMARY KEY,
+	titulo character VARYING(30),
+	lancamento date
+)
+create TABLE ator(
+	id_ator serial PRIMARY KEY,
+	nome character VARYING(30),
+	nascimento date
+)
+create TABLE ator(
+	id_ator serial PRIMARY KEY,
+	nome character VARYING(30),
+	nascimento date
+)

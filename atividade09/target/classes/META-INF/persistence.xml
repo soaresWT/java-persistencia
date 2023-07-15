@@ -7,7 +7,7 @@
 
 <persistence-unit name="dev" transaction-type="RESOURCE_LOCAL">
 <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-<class>com.atividade07.entity.Aluno</class>
+<!-- <class>com.atividade07.entity.Aluno</class> -->
 <properties>
     <property name="javax.persistence.jdbc.url"
               value="jdbc:postgresql://localhost/aluno" />

@@ -1,6 +1,6 @@
-package main.java.com.atividade09.dao;
+package com.atividade09.dao;
 
-import com.atividade07.entity.Aluno;
+import com.atividade09.entity.Aluno;
 
 public interface AlunoDAO {
   public void save(Aluno aluno);

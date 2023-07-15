@@ -1,6 +1,6 @@
-package com.atividade07.dao;
+package com.atividade09.dao;
 
-import com.atividade07.entity.Aluno;
+import com.atividade09.entity.Aluno;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;

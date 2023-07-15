@@ -1,8 +1,8 @@
-package com.atividade07.ui;
+package com.atividade09.ui;
 
-import com.atividade07.dao.AlunoDAO;
-import com.atividade07.dao.AlunoJPADAO;
-import com.atividade07.entity.Aluno;
+import com.atividade09.dao.AlunoDAO;
+import com.atividade09.dao.AlunoJPADAO;
+import com.atividade09.entity.Aluno;
 import java.util.Scanner;
 
 public class teste {

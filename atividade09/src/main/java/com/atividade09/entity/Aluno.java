@@ -1,11 +1,13 @@
-package com.atividade07.entity;
+package com.atividade09.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import java.util.List;
 
 @Entity
 @Table(name = "aluno")
@@ -21,6 +23,9 @@ public class Aluno {
   private String matricula;
   private String cpf;
 
+  @OneToMany(mappedBy = "Aluno")
+  List<TurmaAluno> turmas;
+
   public Aluno() {}
 
   public Aluno(
@@ -28,13 +33,15 @@ public class Aluno {
     String email,
     String telefone,
     String matricula,
-    String cpf
+    String cpf,
+    List<TurmaAluno> turmas
   ) {
     this.nome = nome;
     this.email = email;
     this.telefone = telefone;
     this.matricula = matricula;
     this.cpf = cpf;
+    this.turmas = turmas;
   }
 
   @Id
@@ -91,6 +98,18 @@ public class Aluno {
 
   public void setCpf(String cpf) {
     this.cpf = cpf;
+  }
+
+  public void setTurmas(List<TurmaAluno> Turmas) {
+    this.turmas = Turmas;
+  }
+
+  public List<TurmaAluno> getTurmas() {
+    return this.turmas;
+  }
+
+  public void addTurmas(TurmaAluno turma) {
+    this.turmas.add(turma);
   }
 
   @Override

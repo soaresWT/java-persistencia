@@ -1,0 +1,29 @@
+node {
+    next*;
+    prev*;
+    int data;
+}
+
+
+5,3,4,1
+
+            5
+        3       
+      1   4
+
+
+
+
+DFS
+BFS 
+
+FILA - PRIMEIRO A ENTRAR É O PRIMEIRO A SAIR
+PILHA - O PRIMEIRO ENTRAR É O ULTIMO A SAIR
+
+int recursao(int i ){
+    if//criterio de parada return i
+    return  //chama ela mesma// recursao(i+1)
+}
+ vector<pair<vector<int>,vector<char>>
+
+         
