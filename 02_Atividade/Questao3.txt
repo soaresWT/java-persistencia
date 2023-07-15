@@ -1,0 +1,19 @@
+link arquivo: https://www.kaggle.com/datasets/tigboatnc/amazon-all-categories-best-sellers-reviews
+
+MD5:
+6b37fd1d677d44bfaab599df0b36da7b
+
+SHA1:
+a3ff71c7fb12b06bbd3969507f5d360fe9b6c8a6
+
+CHECKSUM:
+3901302069 10503292
+
+RAR:
+5,86 segundos
+
+ZIP:
+1,25 segundos
+
+GZIP:
+1,26 segundos
