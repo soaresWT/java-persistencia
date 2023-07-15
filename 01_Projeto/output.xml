@@ -1,0 +1,16 @@
+<ArrayList>
+  <item>
+    <nome>valorant</nome>
+    <descricao>jgo</descricao>
+    <valor>10.0</valor>
+    <mult>sim</mult>
+    <nota>10</nota>
+  </item>
+  <item>
+    <nome>lol</nome>
+    <descricao>oi</descricao>
+    <valor>10.0</valor>
+    <mult>sim</mult>
+    <nota>10</nota>
+  </item>
+</ArrayList>

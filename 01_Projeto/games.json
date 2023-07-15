@@ -1,0 +1,13 @@
+[ {
+  "nome" : "valorant",
+  "descricao" : "jgo",
+  "valor" : 10.0,
+  "mult" : "sim",
+  "nota" : 10
+}, {
+  "nome" : "lol",
+  "descricao" : "oi",
+  "valor" : 10.0,
+  "mult" : "sim",
+  "nota" : 10
+} ]
